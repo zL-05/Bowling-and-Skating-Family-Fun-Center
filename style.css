@@ -1,3 +1,22 @@
 .nav-pills{
-    background-color:red;
+    background-color:;
 }
+.pills-rounded .nav-item .nav-link {
+    border-radius: 10em;
+    }
+    
+    
+    .pills-peach-gradient .nav-item .nav-link.active {
+    background: linear-gradient(40deg, #FFD86F, #FC6262);
+    }
+.homepage{
+    background: rgb(255,0,0);
+    background: linear-gradient(157deg, rgba(255,0,0,1) 0%, rgba(0,129,255,1) 100%);
+}
+
+
+img{
+    border-radius: 5%;
+}
+
+
