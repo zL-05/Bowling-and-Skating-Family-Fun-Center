@@ -1,17 +1,31 @@
-.nav-pills{
-    background-color:;
-}
-.pills-rounded .nav-item .nav-link {
-    border-radius: 10em;
-    }
-    
-    
-    .pills-peach-gradient .nav-item .nav-link.active {
-    background: linear-gradient(40deg, #FFD86F, #FC6262);
-    }
+
 .homepage{
     background: rgb(255,0,0);
     background: linear-gradient(157deg, rgba(255,0,0,1) 0%, rgba(0,129,255,1) 100%);
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+
+}
+.bowlpage{
+    background: rgb(0,209,255);
+    background: linear-gradient(328deg, rgba(0,209,255,1) 0%, rgba(255,153,0,1) 83%);
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+
+}
+
+.skatepage{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    background: rgb(255,230,0);
+    background: linear-gradient(94deg, rgba(255,230,0,1) 0%, rgba(112,0,255,1) 100%);
+}
+
+.funcardpage{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    background: rgb(239,98,159);
+    background: linear-gradient(277deg, rgba(239,98,159,1) 0%, rgba(238,205,163,1) 100%);
 }
 
 
@@ -20,3 +34,18 @@ img{
 }
 
 
+.activitespage{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    background: rgb(86,171,47);
+    background: linear-gradient(140deg, rgba(86,171,47,1) 11%, rgba(168,224,99,1) 100%);
+}
+.bdaycontactpage{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    background: rgb(255,0,229);
+    background: linear-gradient(90deg, rgba(255,0,229,1) 0%, rgba(128,106,237,1) 50%, rgba(0,209,255,1) 100%);
+}
+.nav-item{
+    color:gray;
+}
