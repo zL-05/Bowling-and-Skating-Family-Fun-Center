@@ -1,9 +1,9 @@
-
 .homepage{
     background: rgb(255,0,0);
-background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(0,209,255,1) 100%);
+    background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(0,209,255,1) 100%);
     font-family: 'Acme', sans-serif;
     font-size: x-large;
+    margin-top: 30;
 
 }
 .bowlpage{
@@ -50,9 +50,9 @@ img{
     background-color: white;
 }
 .bowlword{
-        background: -webkit-linear-gradient(#00d1ff, #ff9900);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#00d1ff, #ff9900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .skatecard{
     margin-left: 20;
@@ -88,5 +88,13 @@ img{
 }
 .turbowildcard{
     background-color: 64D9AF;
+}
+.homeimg1{
+    width:306px;
+    height:388px;
+}
+.homeimg2{
+    width:400px;
+    height:388px;
 }
 
