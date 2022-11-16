@@ -26,13 +26,12 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
     background: rgb(255,230,0);
     background: linear-gradient(135deg, rgba(255,230,0,1) 0%, rgba(112,0,255,1) 100%);
 }
-
-
+.activitesinfo{
+    margin-top:80;
+}
 img{
     border-radius: 5%;
 }
-
-
 .activitespage{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
@@ -67,18 +66,23 @@ img{
 }
 .yellowcard{
     background-color: yellow;
+    height: 700px;
 }
 .bowlingcard{
     background-color: 12DC00 ;
+    height: 700px;
 }
 .gokartcard{
     background-color: FF9DF5 ;
+    height: 700px;
 }
 .skatefuncard{
     background-color: 44C7FF ;
+    height: 700px;
 }
 .duckpincard{
     background-color: FFB800 ;
+    height: 700px;
 }
 .wildcard{
     background-color: DCC0FF;
@@ -97,4 +101,24 @@ img{
     width:400px;
     height:388px;
 }
+.funcards{
+    margin-left: 20;
+}
+.card-title{
+    font-weight:bold;
+    font-size:xx-large
+}
+.roundof{
+    text-align: left;
+}
+.funcardimg{
+    width:400px;
+    height: 600px;
+}
+.card-img-top{
+    width: 500px;
 
+}
+.bday{
+    margin-top: 60;
+}
