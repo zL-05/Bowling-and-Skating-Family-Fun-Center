@@ -3,7 +3,7 @@
     background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(0,209,255,1) 100%);
     font-family: 'Acme', sans-serif;
     font-size: x-large;
-    margin-top: 30;
+    margin-top: 85;
 
 }
 .bowlpage{
@@ -19,6 +19,10 @@
     background: rgb(255,230,0);
 background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%);
 }
+.skateimg{
+    height: 300px;
+    width: 400px
+}
 
 .funcardpage{
     font-family: 'Acme', sans-serif;
@@ -28,6 +32,8 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
 }
 .activitesinfo{
     margin-top:80;
+    margin-left: auto;
+    margin-right: auto;
 }
 img{
     border-radius: 5%;
@@ -49,9 +55,12 @@ img{
     background-color: white;
 }
 .bowlword{
-    background: -webkit-linear-gradient(#00d1ff, #ff9900);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: #00D1FF;
+background: linear-gradient(to right, #00D1FF 0%, #FF9900 69%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
 }
 .skatecard{
     margin-left: 20;
@@ -69,29 +78,29 @@ img{
     height: 700px;
 }
 .bowlingcard{
-    background-color: 12DC00 ;
+    background-color: #88ff00 ;
     height: 700px;
 }
 .gokartcard{
-    background-color: FF9DF5 ;
+    background-color: #FF9DF5 ;
     height: 700px;
 }
 .skatefuncard{
-    background-color: 44C7FF ;
+    background-color: #0098da ;
     height: 700px;
 }
 .duckpincard{
-    background-color: FFB800 ;
+    background-color: #FFB800 ;
     height: 700px;
 }
 .wildcard{
-    background-color: DCC0FF;
+    background-color: #e0c7ff;
 }
 .superwildcard{
-    background-color: FF4D4D;
+    background-color: #FF4D4D;
 }
 .turbowildcard{
-    background-color: 64D9AF;
+    background-color: #00bd9d;
 }
 .homeimg1{
     width:306px;
@@ -102,11 +111,13 @@ img{
     height:388px;
 }
 .funcards{
-    margin-left: 20;
+    margin-left: 40;
+    margin-right: 40;
 }
 .card-title{
     font-weight:bold;
-    font-size:xx-large
+    font-size:xx-large;
+    text-decoration: underline;
 }
 .roundof{
     text-align: left;
@@ -121,4 +132,47 @@ img{
 }
 .bday{
     margin-top: 60;
+}
+.ffccover{
+    height: 700px;
+    width: 1300px;
+    margin-left: 140;
+}
+.bdaycontactword{
+    background: #FF00E5;
+background: linear-gradient(to right, #FF00E5 9%, #08CBFE 79%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.funcards{
+    margin-top: 80;
+}
+.funword {
+    background: #FFFF00;
+    background: linear-gradient(to right, #FFFF00 9%, #88FF00 18%, #FF9DF5 47%, #0098DA 69%, #FFB800 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5%;
+    margin-top: 50;
+    margin-left: 50;
+    text-align: center;
+}
+.funcardcard{
+    height: 125px;
+}
+
+.nav{
+background-color: red;
+border-radius: 22%;
+}
+
+.wildword{
+    background: #CAA0FF;
+background: linear-gradient(to right, #CAA0FF 25%, #FF4D4D 44%, #80FFD1 80%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    border-radius: 5%;
+    margin-top: 50;
+    margin-left: 50;
+    text-align: center;
 }
