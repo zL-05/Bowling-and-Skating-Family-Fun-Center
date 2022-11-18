@@ -35,9 +35,9 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
     margin-left: auto;
     margin-right: auto;
 }
-img{
+/* img{
     border-radius: 5%;
-}
+} */
 .activitespage{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
@@ -160,11 +160,14 @@ background: linear-gradient(to right, #FF00E5 9%, #08CBFE 79%);
 .funcardcard{
     height: 125px;
 }
-
-.nav{
-background-color: red;
-border-radius: 22%;
+.wordcard{
+    width:400px;
+    margin-left: 110;
 }
+/* .nav{
+background-color: red;
+border-radius: 50px;
+} */
 
 .wildword{
     background: #CAA0FF;
