@@ -6,6 +6,9 @@
     margin-top: 85;
 
 }
+.homepagetop{
+    background-color: grey;
+}
 .bowlpage{
     background: rgb(0,209,255);
     background: linear-gradient(135deg, rgba(0,209,255,1) 0%, rgba(255,153,0,1) 100%);
@@ -134,9 +137,8 @@ background: linear-gradient(to right, #00D1FF 0%, #FF9900 69%);
     margin-top: 60;
 }
 .ffccover{
-    height: 700px;
-    width: 1300px;
-    margin-left: 140;
+    height: 900px;
+    width: 2000px;
 }
 .bdaycontactword{
     background: #FF00E5;
