@@ -6,6 +6,11 @@
     margin-top: 85;
 
 }
+.bowlingcover{
+    margin-top: 70;
+    width: 1950px;
+    height: 832px;
+}
 .bowlpage{
     background: rgb(0,209,255);
     background: linear-gradient(135deg, rgba(0,209,255,1) 0%, rgba(255,153,0,1) 100%);
@@ -20,8 +25,8 @@
 background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%);
 }
 .skateimg{
-    height: 300px;
-    width: 400px
+    height: 1300px;
+    width: 2500px;
 }
 
 .funcardpage{
@@ -36,7 +41,7 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
     margin-right: auto;
 }
 img{
-    border-radius: 5%;
+    b order-radius: 5%;
 }
 .activitespage{
     font-family: 'Acme', sans-serif;
@@ -135,8 +140,7 @@ background: linear-gradient(to right, #00D1FF 0%, #FF9900 69%);
 }
 .ffccover{
     height: 700px;
-    width: 1300px;
-    margin-left: 140;
+    width: 2500px;
 }
 .bdaycontactword{
     background: #FF00E5;
