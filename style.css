@@ -63,7 +63,7 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
     margin-right: auto;
 }
 img{
-    b order-radius: 5%;
+    border-radius: 5%;
 }
 .activitespage{
     font-family: 'Acme', sans-serif;
