@@ -3,7 +3,7 @@
     background: linear-gradient(150deg, rgba(255,0,0,1) 0%, rgba(0,209,255,1) 100%);
     font-family: 'Acme', sans-serif;
     font-size: x-large;
-    margin-top: 85;
+    margin-top:70;
 
 }
   
@@ -46,7 +46,7 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
     margin-right: auto;
 }
 img{
-    border-radius: 5%;
+    border-r adius: 5%;
 }
 .activitespage{
     font-family: 'Acme', sans-serif;
