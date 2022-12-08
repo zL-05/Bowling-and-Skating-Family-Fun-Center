@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Family Fun Center - Home</title>
+    <title>Home | Family Fun Center</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,46 +13,51 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   </head>
   <body class="homepage">
-  
-    <nav class="navbar navbar-expand-lg bg-white fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/FamilyFunLogo.jpeg" class="ffclogo"  href="index.html">
-        </a>
-        
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Activities
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Bowlingpage.html">Bowling 🎳</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Skatingpage.html">Skating 🛼</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Activitespage.html#minigolf">Mini Golf ⛳</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Activitespage.html#lasertag">Laser Tag 🔫</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Activitespage.html#gokarts">Go-Karts 🏎</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Activitespage.html#vrc">Virtual Roller Coaster 🎢</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Activitespage.html#arcade">Arcade 🎫</a></li>
-              <li><hr class="dropdown-divider"></li>
+    <nav class="navbar bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/FamilyFunLogo.jpeg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h2>"For The Love Of Family Fun.</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Activities
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Bowlingpage.html">Bowling 🎳</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Skatingpage.html">Skating 🛼</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Activitespage.html#minigolf">Mini Golf ⛳</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Activitespage.html#lasertag">Laser Tag 🔫</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Activitespage.html#gokarts">Go-Karts 🏎</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Activitespage.html#vrc">Virtual Roller Coaster 🎢</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Activitespage.html#arcade">Arcade 🎫</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fun Cards</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reserve</a>
+                </li>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="FunCardspage.html">Fun Cards</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Reserve.html">Reserve</a>
-          </li>
-        </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -61,11 +66,11 @@
     <img src="img/ffcinside.jpeg" class="card-img">
     <div class="card-img-overlay">
       <h2 class="card-title" data-aos="fade-right" >For The Love Of Family Fun.</h2>
-        <h3 class="card-text" data-aos="fade-right" data-aos-delay="300" >Since '95, We've Been Supplying Jackson, Tennessee And Surrounding Areas With Unbeatable Amounts Of Fun For The Whole Family!</h3>
+        <h3 class="card-text" data-aos="fade-right" data-aos-delay="100" >Since '95, We've Been Supplying Jackson, Tennessee And Surrounding Areas With Unbeatable Amounts Of Fun For The Whole Family!</h3>
           <br>
-          <h3 data-aos="fade-right" data-aos-delay="700">Rolling And Bowling. Driving (Go-Karts) and Driving (Mini-Golf). Twisting And Turning. We Have It All In One Spot!</h3>
+          <h3 data-aos="fade-right" data-aos-delay="200">Rolling And Bowling. Driving (Go-Karts) and Driving (Mini-Golf). Twisting And Turning. We Have It All In One Spot!</h3>
           <br>
-          <h3 data-aos="fade-right" data-aos-delay="1100">So, What Are You Waiting For? Let's Have Fun!</h4>
+          <h3 data-aos="fade-right" data-aos-delay="300">So, What Are You Waiting For? Let's Have Fun!</h4>
     </div>
   </div>
   <div class="container text-center">
