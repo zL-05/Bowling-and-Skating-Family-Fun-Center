@@ -4,10 +4,24 @@
     font-family: 'Acme', sans-serif;
     font-size: x-large;
     margin-top:70;
-
 }
 .bdayreserve{
     background-color: white;
+}
+.bowlingparty{
+    color: lightskyblue;
+}
+.allparties{
+    color:#CAA0FF;
+}
+.lasertagparty{
+    color:salmon;
+}
+.skatingparty{
+    color:yellow;
+}
+.duckpinparty{
+    color:greenyellow;
 }
 .homepagetop{
     margin-top: 20;
