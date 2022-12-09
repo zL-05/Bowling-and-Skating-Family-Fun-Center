@@ -8,6 +8,29 @@
 .ffclogomain{
     margin-left: 400;
 }
+footer{
+    background: #FF0B0B;
+background: linear-gradient(to right, #FF0B0B 22%, #0029F7 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+.dollarskprice{
+    background: #00FF00;
+background: linear-gradient(to right, #00FF00 0%, #007D11 25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.frisunprices{
+    background: #FFE600;
+background: linear-gradient(to right, #FFE600 0%, #DB00FF 25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
 .bdayreserve{
     background-color: white;
 }
@@ -102,7 +125,7 @@ img{
 }
 .bowlword{
     background: #00D1FF;
-background: linear-gradient(to right, #00D1FF 0%, #FF9900 69%);
+background: linear-gradient(to right, #00D1FF 0%, #FF9900 15%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
