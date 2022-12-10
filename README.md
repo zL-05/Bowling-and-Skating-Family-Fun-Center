@@ -1,2 +1,2 @@
 # Bowling and Skating Family Fun Center
- 
+ Hello! Our names are Zyshon, Dylan, Karam, and Belal and we attend Madison Academic Magnet High School! Our group name is 4Bit! Our client, the Bowling and Skating Family Fun Center, is a place for fsmilies to have loads of fun! This website was made with careful precision! Every photo on the website is self-taken...literally! We enhanced it with the fading effect seen in the entire website. We enjoyed this project as it offered a fun way to display a fun thing while learning some new and fun things!
