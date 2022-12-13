@@ -72,8 +72,7 @@ background: linear-gradient(to right, #FFE600 0%, #DB00FF 25%);
 .bowlpage{
     font-size: x-large;
     font-family: 'Acme', sans-serif;
-    background: rgb(255, 174, 0);
-    background: linear-gradient(150deg, rgb(255, 187, 0) 0%, rgb(77, 249, 255) 100%);
+    background-color: rgb(54, 54, 54);
 }
 
 .skatepage{
@@ -231,6 +230,25 @@ background: linear-gradient(to right, #FF00E5 9%, #08CBFE 79%);
 .wordcard{
     width:400px;
     margin-left: 110;
+}
+.homewordgradient{
+    background: #05C5FF;
+    background: linear-gradient(to right, #05C5FF 0%, #FF1A16 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bowlwordgradient{
+    background: #FFA914;
+background: linear-gradient(to right, #FFA914 0%, #17C9FF 25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.skatewordgradient{
+    background: #FFEC3D;
+background: linear-gradient(to right, #FFEC3D 0%, #E91FFF 25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 .wildword{
