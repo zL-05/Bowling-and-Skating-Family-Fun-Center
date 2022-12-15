@@ -78,8 +78,7 @@ background: linear-gradient(to right, #FFE600 0%, #DB00FF 25%);
 .skatepage{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
-    background: rgb(255,230,0);
-background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%);
+    background-color: rgb(54, 54, 54);
 }
 .skateimg{
     height: 1300px;
@@ -95,8 +94,7 @@ background: linear-gradient(150deg, rgba(255,230,0,1) 0%, rgba(219,0,255,1) 100%
 .funcardpage{
     font-family: 'Acme', sans-serif;
     font-size: x-large;
-    background: rgb(255,230,0);
-    background: linear-gradient(135deg, rgba(255,230,0,1) 0%, rgba(112,0,255,1) 100%);
+    background-color: rgb(54, 54, 54);
 }
 .activitesinfo{
     margin-top:80;
@@ -232,10 +230,11 @@ background: linear-gradient(to right, #FF00E5 9%, #08CBFE 79%);
     margin-left: 110;
 }
 .homewordgradient{
-    background: #05C5FF;
-    background: linear-gradient(to right, #05C5FF 0%, #FF1A16 25%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: #0091FF;
+background: linear-gradient(to right, #0091FF 0%, #FFFFFF 10%, #FF0000 30%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 .bowlwordgradient{
     background: #FFA914;
